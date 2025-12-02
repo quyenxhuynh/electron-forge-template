@@ -1,7 +1,8 @@
 import { createRoot } from "react-dom/client";
+import { AppRouter } from "src/renderer/providers/AppRouter";
 
 export default function App() {
-  return <div>App</div>;
+  return <AppRouter />;
 }
 
 const container = document.getElementById("root");
